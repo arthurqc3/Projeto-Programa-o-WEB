@@ -19,3 +19,4 @@ O projeto é composto por três arquivos principais:
 - **style.css**: Define o estilo da página, utilizando o modelo de caixas do CSS (CSS Box Model) para controlar o layout.
 - **script.js**: Contém a lógica JavaScript que manipula a tabela dinamicamente e impede a digitação direta no campo de data.
 
+- Link para acessar via Github Pages: https://arthurqc3.github.io/Projeto-Programa-o-WEB/
