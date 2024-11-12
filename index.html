@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Eventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Eventos</h1>
+        
+        <form id="eventForm">
+            <label for="name">Nome do Evento:</label>
+            <input type="text" id="name" placeholder="Digite o nome do evento" required>
+            
+            <label for="time">Hora:</label>
+            <input type="time" id="time" required>
+            
+            <label for="date">Data:</label>
+            <input type="date" id="date" required>
+            
+            <button type="button" onclick="addEvent()">Salvar Evento</button>
+        </form>
+        
+        <table id="eventTable">
+            <thead>
+                <tr>
+                    <th>Nome do Evento</th>
+                    <th>Hora</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
