@@ -19,8 +19,3 @@ O projeto é composto por três arquivos principais:
 - **style.css**: Define o estilo da página, utilizando o modelo de caixas do CSS (CSS Box Model) para controlar o layout.
 - **script.js**: Contém a lógica JavaScript que manipula a tabela dinamicamente e impede a digitação direta no campo de data.
 
-## Como Usar
-
-1. Clone este repositório para sua máquina local:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/cadastro-de-eventos.git
